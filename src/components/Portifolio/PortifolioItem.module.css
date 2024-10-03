@@ -1,0 +1,34 @@
+.modal {
+  position: fixed;
+  margin-left: 2rem;
+  top: 10%;
+  width: 63%;
+  height: 75%;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparência para o fundo escuro */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+}
+
+.modal img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.modal p {
+  margin-bottom: 20px;
+}
+
+.modal button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

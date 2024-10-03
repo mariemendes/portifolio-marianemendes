@@ -1,0 +1,145 @@
+.header {
+  /* padding: 0.5rem 0; */
+  position: fixed;
+  width: 20rem;
+  height: 100%;
+  z-index: 100;
+  background-color: #d0ccc7;
+  top: 0;
+}
+.nav {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0;
+}
+.span {
+  background-color: #c9beac;
+  padding: 0.5rem;
+  display: inline-block;
+  border-radius: 50rem;
+  margin-bottom: 0.25rem;
+  margin-top: 1.5rem;
+}
+.span img {
+  width: 15rem;
+  --color: #8c7a5e;
+  --border: 10px;
+  --offset: 20px;
+  --gap: 5px;
+
+  --_c: var(--color) var(--border), #0000 0 calc(100% - var(--border)),
+    var(--color) 0;
+  --_o: calc(3 * var(--offset));
+  padding: calc(var(--gap) + var(--border))
+    calc(var(--gap) + var(--border) + var(--offset))
+    calc(var(--gap) + var(--border) + var(--offset))
+    calc(var(--gap) + var(--border));
+  background: linear-gradient(var(--_c)) var(--_o) var(--_o),
+    linear-gradient(90deg, var(--_c)) var(--_o) var(--_o);
+  background-size: calc(100% - var(--_o)) calc(100% - var(--_o));
+  background-repeat: no-repeat;
+  filter: grayscale(0.4);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.span img:hover {
+  background-position: 0px 0px;
+  background-size: calc(100% - var(--offset)) calc(100% - var(--offset));
+  filter: grayscale(0);
+}
+.link {
+  height: auto;
+  padding: 1rem 0;
+  position: relative;
+  color: black;
+  display: grid;
+  align-items: center;
+  font-size: 1.2rem;
+  justify-content: center;
+  text-decoration: none;
+}
+.activeLink {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+@media (max-width: 991.98px) {
+  .header {
+    height: auto !important;
+    overflow: visible;
+    width: 10rem;
+  }
+  .picture {
+    display: none;
+  }
+
+  .nav {
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+    padding: 0 0;
+  }
+
+  /* Update the CSS for the hamburger button */
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 101;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #8c7a5e;
+    color: #8c7a5e;
+    font-size: 29px;
+  }
+
+  .hamburger.active {
+    /* Styles for the active (open) button, you can customize this as needed */
+  }
+
+  /* Update the CSS for the navigation menu */
+  .nav {
+    position: fixed;
+    width: 40%;
+    height: 100%;
+    background-color: #d0ccc7;
+    top: 0;
+    left: -100%; /* Initially off-screen */
+    transition: left 0.3s ease-in-out;
+    z-index: 100;
+  }
+
+  .nav.show {
+    left: 0; /* Display the navigation menu when the button is clicked */
+  }
+
+  /* Update the CSS for the links */
+  .link {
+    padding: 1rem 0;
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+
+  .activeLink {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+
+  /* Your existing styles for the header and other elements can remain unchanged */
+
+  /* @media (max-width: 991.98px) {
+  .header {
+    height: auto !important;
+    overflow: visible;
+    width: 100%;
+  }
+
+  .nav {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    padding: 0 0;
+  }
+} */
+}

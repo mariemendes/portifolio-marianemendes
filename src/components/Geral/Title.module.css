@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mr+Dafoe&display=swap');
+.span {
+  font-family: 'Mr Dafoe', cursive;
+  font-weight: 500;
+  font-size: 4rem;
+  text-shadow: -15px 5px 20px #ced0d3;
+  transform: translate(-50%, -50%);
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #8c7a5e;
+  text-shadow: 1px 4px 0px white, 2px 7px 0px #d0ccc7, 3px 11px 0px #c9beac;
+}

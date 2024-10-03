@@ -1,0 +1,19 @@
+.starDiv {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  justify-content: space-between;
+  padding: 0 9rem;
+}
+
+.star {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #ccc;
+  margin-right: 4px;
+}
+
+.filled {
+  background-color: gold;
+}

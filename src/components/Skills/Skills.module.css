@@ -1,0 +1,9 @@
+.technologiesDiv ul {
+  padding: 0;
+}
+.technologiesDiv li {
+  list-style: none;
+  /* display: grid;
+  justify-content: center; */
+  line-height: 2rem;
+}

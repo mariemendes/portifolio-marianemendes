@@ -1,0 +1,17 @@
+.div {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+.divExp {
+  border: 1px solid #8c7a5e;
+  margin: 1rem;
+  padding: 1rem;
+}
+.paragraph {
+  text-align: center;
+  margin: 4px;
+}
+.resumeDiv {
+  height: auto;
+}

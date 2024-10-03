@@ -1,0 +1,13 @@
+.form {
+  display: grid;
+  grid-gap: 0.5rem;
+}
+.form span {
+  color: red;
+  font-size: 0.8rem;
+  text-align: initial;
+}
+.form input,
+.form textarea {
+  border: 1px solid #c9beac;
+}
