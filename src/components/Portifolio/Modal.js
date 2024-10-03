@@ -18,7 +18,7 @@ const Modal = ({ project, onClose }) => {
         <Paragraph>{project.date}</Paragraph>
         <Paragraph>{project.frontend}</Paragraph>
         <Paragraph>{project.backend}</Paragraph>
-        <Paragraph>
+        <Paragraph> 
           <a href={project.link}>{project.link}</a>
         </Paragraph>
         <Button onClick={onClose}>Fechar</Button>
