@@ -1,0 +1,37 @@
+.profilePicture img {
+  border-radius: 9999px;
+  width: 292px;
+}
+.profileNav {
+  text-align: left;
+  min-height: 22rem;
+  justify-content: space-between;
+  display: grid;
+  padding-top: 1.5rem;
+}
+.profilePar {
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 1rem;
+}
+.profileLinks{ 
+  display: grid;
+}
+.profileListLinks {
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+  display: grid;
+}
+.profileListLinks a, .profileListLinks li:last-child {
+  align-items: end;
+  text-align: center;
+  display: flex;
+}
+
+.profileListLinks svg {
+  margin-right: 0.5rem;
+}
+
+.profileNav {
+  
+}

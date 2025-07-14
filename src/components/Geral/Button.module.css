@@ -1,16 +1,13 @@
 .button {
-  background-color: white;
-  font-size: 1.3rem;
-  border-radius: 35px;
-  padding: 0.8rem 2rem;
-  margin-top: 2rem;
-  border-style: solid;
-  cursor: pointer;
-
-  border-color: #8c7a5e;
-  color: #8c7a5e;
-
-  box-shadow: none;
+  background-color: var(--green);
+  padding: 6px 12px;
+  border-radius: var(--border-radious-medium);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  color: #fff;
+  transition: all .1s ease-in-out;
+  border: 0;
 }
 
 .button a {

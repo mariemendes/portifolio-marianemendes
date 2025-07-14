@@ -4,7 +4,7 @@ import Welcome from '../Welcome/Welcome';
 
 const Home = () => {
   return (
-    <div className={`${styles.home} containerDiv containerPages`}>
+    <div className={`${styles.home} containerWrapperRight`}>
       <Welcome />
     </div>
   );

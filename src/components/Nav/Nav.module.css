@@ -1,0 +1,14 @@
+.listNav{
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.link {
+  padding: 0 1rem 0.85rem 1rem;
+  border-bottom: 3px solid transparent;
+  transition: border-color 0.2s ease-in-out;
+}
+.activeLink {
+  border-bottom-color: var(--color-orange);
+}

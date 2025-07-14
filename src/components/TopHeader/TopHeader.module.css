@@ -1,0 +1,26 @@
+.wrapperTopHeader {
+  border-bottom: 1px solid var(--border-color);
+}
+.containerTopHeader, .leftContainer, .rightContainer {
+  display: flex;
+  align-items: center;
+}
+.containerTopHeader{
+  justify-content: space-between;
+}
+
+.topTopHeader .rightContainer {
+    width: 15rem;
+    justify-content: space-between;
+}
+
+.iconName {
+  padding: 0.5rem 0.75rem;
+  box-shadow: var(--shadow-btn);
+  margin-right: 1rem;
+  border-radius: .375rem;
+}
+.containerTopHeaderNav{
+  display: flex;
+  gap: 2rem;
+}
