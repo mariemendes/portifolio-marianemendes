@@ -18,6 +18,6 @@
 
 .button:hover,
 .button:hover a {
-  background-color: #8c7a5e;
+  background-color: var(--green-button);
   color: white;
 }

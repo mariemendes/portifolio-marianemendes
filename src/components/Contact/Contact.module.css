@@ -1,5 +1,6 @@
 .contact {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  padding: 2rem;
+  text-align: center;
+}
+.contactDiv {
+  text-align: center;
 }

@@ -8,7 +8,7 @@ import {
   GitHubIcon,
   InstagramIcon,
   LinkedinIcon 
-} from '../Geral/Icons/Icons';
+} from '../../assets/Icons/Icons';
 import CopyandPastIcon from '../Geral/Icons/CopyIcon/CopyIcon';
 
 const Profile = () => {

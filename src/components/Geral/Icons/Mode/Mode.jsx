@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { MoonIcon, SunIcon } from '../Icons';
+import { MoonIcon, SunIcon } from '../../../../assets/Icons/Icons';
 
 function Mode() {
   const [theme, setTheme] = useState('light');

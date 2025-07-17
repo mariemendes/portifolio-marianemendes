@@ -2,3 +2,10 @@
   text-align: left;
   line-height: 9px;
 }
+
+.address {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding-bottom: 2rem;
+}

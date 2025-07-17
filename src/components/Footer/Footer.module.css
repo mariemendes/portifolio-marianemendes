@@ -1,0 +1,16 @@
+.footer {
+  margin: 1rem 0;
+}
+.footer p {
+  line-height: 0px;
+    font-size: 0.7rem;
+}
+
+@media (max-width: 991.98px) {
+  .footer {
+    margin: 1rem;
+  }
+  .footer p {
+    display: initial;
+  }
+}

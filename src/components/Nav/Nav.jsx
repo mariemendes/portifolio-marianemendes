@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Nav.module.css';
 import { Link, useLocation } from 'react-router-dom';
-import sections from '../sections';
+import sections from '../Geral/sections';
 
 const Nav = ({ className }) => {
   const location = useLocation();

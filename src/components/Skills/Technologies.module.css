@@ -1,0 +1,22 @@
+.technologiesTitle{
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 1rem;
+}
+.technologiesDiv ul {
+  padding: 0;
+}
+.listSkills {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.technologiesDiv li {
+  list-style: none;
+  max-width: max-content;
+  padding: 0 0.6rem;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  height: 35px;
+  border-radius: var(--border-radious-small);
+}

@@ -1,7 +1,9 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import styles from './Welcome.module.css';
 import Button from '../Geral/Button';
+import Technologies from '../Skills/Technologies'
+import Paragraph from '../Geral/Paragraph';
+import { Link } from 'react-router-dom';
 
 const Welcome = () => {
   return (
@@ -9,20 +11,22 @@ const Welcome = () => {
       <div className={`${styles.welcomeWrapper}`}>
         <div>
            <div className={`${styles.breadcrumb}`}>
-              <p>Mariane-Mendes/README.md</p>
+              <Paragraph>Mariane-Mendes <span className={`${styles.extension}`}>/</span> <span className={`${styles.readme}`}> README</span><span className={`${styles.extension}`}>.md</span></Paragraph>
            </div>
             <div className={`${styles.personalName}`}>
               <h1>Hello!</h1>
            </div>
             <div className={`${styles.personalInfos}`}>
-              <p>....</p>
+              <Paragraph>....</Paragraph>
            </div>
             <div className={`${styles.buttonContact}`}>
-              <Button>Get in Touch</Button>
+              <Link to="/contact" rel="noopener noreferrer">
+                    <Button>Get in Touch</Button>
+              </Link>
            </div>
         </div>
-        <div className={`${styles.bottomContainer}`}>
-
+        <div className={`${styles.middleContainer}`}>
+          <Technologies />
         </div>
       </div>
     </div>

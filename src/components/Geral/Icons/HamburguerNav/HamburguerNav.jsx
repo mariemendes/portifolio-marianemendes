@@ -1,6 +1,6 @@
 import React from 'react';
 // import styles from './HamburguerNav.module.css';
-import { HamburguerIcon } from '../Icons';
+import { HamburguerIcon } from '../../../../assets/Icons/Icons';
 
 
 const HamburguerNav = () => {

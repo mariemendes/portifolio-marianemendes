@@ -1,0 +1,24 @@
+.expWrapper {
+  margin-bottom: 3.5rem;
+}
+ul {
+  padding: 0;
+}
+.infosExp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.expWrapper h2, .eduWrapper h2 {
+  font-weight: 500;
+}
+.expWrapper p, .eduWrapper p {
+  margin-top: 4px;
+  font-weight: 200;
+  line-height: 1.5rem;
+}
+
+.dates{
+  font-size: 13px;
+  font-weight: 200;
+}

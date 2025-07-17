@@ -1,53 +1,46 @@
 import React from 'react';
 import './App.css';
-import Footer from './components/Footer';
-import { BrowserRouter as Router} from 'react-router-dom';
-// import Home from './components/Home/Home';
-// import AboutMe from './components/AboutMe/AboutMe';
-// import Skills from './components/Skills/Skills';
-// import Resume from './components/Resume/Resume';
-// import Portifolio from './components/Portifolio/Portifolio';
-// import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Profile from './components/Profile/Profile';
 import TopHeader from './components/TopHeader/TopHeader';
+
+// Components
 import Home from './components/Home/Home';
+import GitHubMessage from './components/GitHubMessage/GitHubMessage';
+import Experience from './components/Experience/Experience';
+// import Skills from './components/Skills/Skills';
+// import Resume from './components/Resume/Resume';
+// import Portfolio from './components/Portfolio/Portfolio';
+import Contact from './components/Contact/Contact';
 
 function App() {
-  // const home = useRef(null);
-  // const aboutMe = useRef(null);
-  // const skills = useRef(null);
-  // const resume = useRef(null);
-  // const portfolio = useRef(null);
-  // const contact = useRef(null);
-
-  // const scrollToSection = (ref) => {
-  //   scroller.scrollTo(ref.current.id, {
-  //     duration: 500,
-  //     delay: 0,
-  //     smooth: 'easeInOutQuart',
-  //   });
-  // };
-
   return (
     <Router>
       <div className="App">
-          <header>
-            <TopHeader />
-          </header>
-          <main className="containerMain">
-            <div className="leftContainerMain">
-              <Profile />
-            </div>
-            <div className="rightContainerMain">
-            <div id="home" className="section">
-              <Home />
-            </div>
-            </div>
-          </main>
-         <footer>
+        <header>
+          <TopHeader />
+        </header>
+        <main className="containerMain">
+          <div className="leftContainerMain">
+            <Profile />
+          </div>
+          <div className="rightContainerMain">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/experience" element={<Experience />} />
+              <Route path="/contact" element={<Contact />} />
+              {/* 
+              <Route path="/projects" element={<Portfolio />} />
+              */}
+            </Routes>
+            <GitHubMessage />
+          </div>
+        </main>
+        <footer>
           <Footer />
-         </footer>
-      </div> 
+        </footer>
+      </div>
     </Router>
   );
 }

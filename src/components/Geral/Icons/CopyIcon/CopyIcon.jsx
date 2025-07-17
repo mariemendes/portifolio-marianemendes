@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { CopyIcon } from '../Icons';
+import { CopyIcon } from '../../../../assets/Icons/Icons';
 
 
 const CopyandPastIcon = ({ textToCopy }) => {

@@ -23,7 +23,7 @@
   display: grid;
 }
 .profileListLinks a, .profileListLinks li:last-child {
-  align-items: end;
+  align-items: flex-end;
   text-align: center;
   display: flex;
 }

@@ -1,6 +1,6 @@
 .form {
   display: grid;
-  grid-gap: 0.5rem;
+  grid-gap: 0.8rem;
 }
 .form span {
   color: red;
@@ -9,5 +9,9 @@
 }
 .form input,
 .form textarea {
-  border: 1px solid #c9beac;
+  border-radius: var(--border-radious-small);
+  border: 1px solid var(--border-color);
+  color: var(--border-color);
+  font-size: 0.8rem;
+  min-height: 1.5rem;
 }

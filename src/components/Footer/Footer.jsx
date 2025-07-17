@@ -1,13 +1,14 @@
 import React from 'react';
-import styles from './Footer.module.css';
+import styles from './Footer.module.css'
 import { Link } from 'react-router-dom';
+import Paragraph from '../Geral/Paragraph';
 
 const Footer = () => {
   const data = new Date();
   const year = data.getFullYear();
   return (
     <div className={styles.footer}>
-      <p>Copyright © {year} Mariane Mendes. All Rights Reserved.
+      <Paragraph>Copyright © {year} Mariane Mendes. All Rights Reserved.
       
         Developed entirely by me, with design inspired by {' '}
         <Link
@@ -16,7 +17,7 @@ const Footer = () => {
         >
            Emanuele Sgroi 
         </Link> and GitHub.
-      </p>
+      </Paragraph>
     </div>
   );
 };

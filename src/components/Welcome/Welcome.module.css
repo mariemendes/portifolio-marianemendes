@@ -1,0 +1,23 @@
+.personalName , .personalInfos {
+  text-align: center;
+}
+.breadcrumb p{
+  font-size: 12px;
+}
+.readme{
+  font-family: var(--font-monospace);
+}
+.extension {
+  color: var(--font-color-second);
+}
+.personalName {
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 1rem;
+}
+.bottomContainer {
+  margin-top: 2rem;
+}
+.buttonContact {
+  margin: 2rem 0;
+  cursor: pointer;
+}
