@@ -29,30 +29,30 @@ const Profile = () => {
           <ul className={styles.profileListLinks}>
             <li>
               <Link to="mailto:marianemendes1104@gmail.com" target="_blank" rel="noopener noreferrer">
-                <EmailIcon height={16} width={16} />
+                <EmailIcon height={18} width={18} />
                 marianemendes1104@gmail.com
               </Link>
             </li>
             <li>
               <Link to="https://github.com/mariemendes" target="_blank" rel="noopener noreferrer">
-                <GitHubIcon height={16} width={16} />
+                <GitHubIcon height={18} width={18}  />
                 Mariane Mendes
               </Link>
             </li>
             <li>
               <Link to="https://www.linkedin.com/in/mariane-mendes-5ab7b8102/" target="_blank" rel="noopener noreferrer">
-                <LinkedinIcon height={16} width={16} />
+                <LinkedinIcon height={18} width={18}  />
                 Mariane Mendes
               </Link>
             </li>
             <li>
               <Link to="https://www.instagram.com/mendesmarie_/" target="_blank" rel="noopener noreferrer">
-                <InstagramIcon height={16} width={16} />
+                <InstagramIcon height={18} width={18}  />
                 /mendesmarie_
               </Link>
             </li>
             <li>
-                <DiscordIcon height={16} width={16} />
+                <DiscordIcon height={18} width={18}  />
                 Marie Mendes <CopyandPastIcon textToCopy="mariemendes" />
             </li>
           </ul>

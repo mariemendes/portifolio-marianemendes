@@ -12,3 +12,9 @@
 .activeLink {
   border-bottom-color: var(--color-orange);
 }
+
+@media (max-width: 991.98px) {
+  .containerNav {
+    display: none;
+  }
+}

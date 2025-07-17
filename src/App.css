@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 :root {
-  /* 🎨 Cores */
+  /* 🎨 colors */
   --color-dark: black;
   --color-light: #fff;
   --color-orange: #f78166;
@@ -12,6 +12,8 @@
   --light-green: #3bde00;
   --green: #238636;
   --dark-green:#1f432b;
+  /* 🎨 bg */ 
+
 
   /* 🖋️ Fontes */
   --font-system: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
@@ -65,9 +67,11 @@ body {
 }
 
 body.light {
-  background-color: white;
-  color: black;
+  background-color: var(--bg-main);
+  --bg-main: var(--bg-color-light);
+  color: var(--txt-color);
   --txt-color: var(--color-dark);
+  --border-nav: #d1d9e0;
   --icon-color: #333;
   --border-color: #d1d9e0;
   --bg-github: #d1d9e0;
@@ -75,10 +79,12 @@ body.light {
 }
 
 body.dark {
-  background-color: var(--bg-color-dark);
-  color: white;
+  background-color: var(--bg-main);
+  --bg-main: var(--bg-color-dark);
+  color: var(--txt-color);
   --txt-color: var(--color-light);
   --icon-color: #fff;
+  --border-nav: #fff;
   --border-color: #2f353d;
   --bg-github: #0f2015;
   --green-button: var(--light-green);
@@ -106,13 +112,21 @@ body.dark {
   text-align: left;
   border: 1px solid var(--border-color);
   border-radius: var(--border-radious-medium);
-  margin: 2rem;
+  margin: 1rem;
   border-radius: var(--border-radious-small);
 }
 
 .containerWrapperLeft {
-  max-width: 23rem;
-  padding: 2rem 0;
+  padding: 2rem;
+}
+@media (min-width: 992px) {
+  .containerWrapperRight {
+      margin: 2rem;
+  }
+  .containerWrapperLeft {
+    max-width: 23rem;
+    padding: 2rem 0;
+  }
 }
 
 h1{

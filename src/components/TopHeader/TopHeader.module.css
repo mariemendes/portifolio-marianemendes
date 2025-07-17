@@ -1,5 +1,6 @@
 .wrapperTopHeader {
   border-bottom: 1px solid var(--border-color);
+  padding: 0 3rem;
 }
 .containerTopHeader, .leftContainer, .rightContainer {
   display: flex;
@@ -10,7 +11,7 @@
 }
 
 .topTopHeader .rightContainer {
-    width: 15rem;
+    width: 8rem;
     justify-content: space-between;
 }
 
@@ -23,4 +24,10 @@
 .containerTopHeaderNav{
   display: flex;
   gap: 2rem;
+}
+
+@media (max-width: 991.98px) {
+  .wrapperTopHeader {
+    padding: 0.5rem 1rem;
+  }
 }

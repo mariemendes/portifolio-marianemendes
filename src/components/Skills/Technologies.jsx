@@ -1,5 +1,4 @@
 import React from 'react';
-// import Title from '../Geral/Title';
 import styles from './Technologies.module.css';
 import skills from '../Geral/skills'
 import Paragraph from '../Geral/Paragraph';

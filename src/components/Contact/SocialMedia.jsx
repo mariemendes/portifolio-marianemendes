@@ -1,8 +1,10 @@
 import React from 'react';
 import styles from './SocialMedia.module.css';
-import LinkedinIcon from '../../assets/linkedin-icon.png';
-import InstagramIcon from '../../assets/instagran-icon.png';
-import GithubIcon from '../../assets/github-icon.png';
+import {
+  GitHubIcon,
+  InstagramIcon,
+  LinkedinIcon 
+} from '../../assets/Icons/Icons';
 // import { Link } from 'react-router-dom';
 
 const SocialMedia = () => {
@@ -15,7 +17,7 @@ const SocialMedia = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={LinkedinIcon} alt="LinkedIn" />
+            <LinkedinIcon height={30} width={30}  />
           </a>
         </li>
         <li>
@@ -24,7 +26,7 @@ const SocialMedia = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={GithubIcon} alt="GitHub" />
+            <GitHubIcon height={30} width={30}  />
           </a>
         </li>
         <li>
@@ -33,7 +35,7 @@ const SocialMedia = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={InstagramIcon} alt="instagram" />
+            <InstagramIcon height={30} width={30} />
           </a>
         </li>
       </ul>

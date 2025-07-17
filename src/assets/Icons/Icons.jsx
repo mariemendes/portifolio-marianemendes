@@ -60,6 +60,21 @@ export const HamburguerIcon = (props) => (
   </svg>
 );
 
+//hamburguer menu
+export const CloseIcon = (props) => (
+  <svg
+    {...props}
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="var(--icon-color)"
+    strokeWidth={2}
+  >
+    <line x1="18" y1="6" x2="6" y2="18" />
+    <line x1="6" y1="6" x2="18" y2="18" />
+  </svg>
+);
+
 //Linkedin Icon
 export const LinkedinIcon = (props) => (
   <svg
@@ -69,8 +84,6 @@ export const LinkedinIcon = (props) => (
     stroke-width="0"
     viewBox="0 0 448 512"
     class="text-accent-icon"
-    height="18"
-    width="18"
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
@@ -89,8 +102,6 @@ export const InstagramIcon = (props) => (
     stroke-width="0"
     viewBox="0 0 448 512"
     class="text-accent-icon"
-    height="18"
-    width="18"
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
@@ -110,8 +121,6 @@ export const EmailIcon = (props) => (
     version="1.1"
     viewBox="0 0 17 17"
     class="text-accent-icon"
-    height="18"
-    width="18"
     xmlns="http://www.w3.org/2000/svg"
   >
     <g class=""></g>
@@ -131,8 +140,6 @@ export const GitHubIcon = (props) => (
     stroke-width="0"
     viewBox="0 0 512 512"
     class="text-accent-icon"
-    height="18"
-    width="18"
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
@@ -151,8 +158,6 @@ export const DiscordIcon = (props) => (
     stroke-width="0"
     viewBox="0 0 640 512"
     class="text-accent-icon"
-    height="18"
-    width="18"
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
@@ -171,8 +176,6 @@ export const CopyIcon = (props) => (
     stroke-width="0"
     viewBox="0 0 512 512"
     class="text-text-primary"
-    height="18"
-    width="18"
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
