@@ -29,6 +29,11 @@
   align-items: center;
 }
 
+.techLinks {
+  display: flex;
+  gap: 3px;
+}
+
 .modal {
   position: fixed;
   margin-left: 2rem;

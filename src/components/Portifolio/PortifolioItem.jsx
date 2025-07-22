@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PortifolioItem = ({ project, onClick, children }) => {
+const PortifolioItem = ({ onClick, children }) => {
   return (
     <div onClick={onClick}>
       {children}

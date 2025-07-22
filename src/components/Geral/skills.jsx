@@ -28,7 +28,9 @@ import {
   Php,
   // Liquid,
   Vtex,
-  Shopify
+  Shopify,
+  Wake,
+  Graphql
 } from '../../assets/Icons/Icons';
 
 
@@ -63,5 +65,8 @@ const skills = [
   // { label: 'Liquid', icon: Liquid, bg: '#fff' },
   { label: 'VTEX', icon: Vtex, bg: '#E31C58' },
   { label: 'Shopify', icon: Shopify, bg: '#96bf48' },
+  { label: 'Wake', icon: Wake, bg: '#fff' },
+  { label: 'Graphql', icon: Graphql, bg: '#e535ab' },
+
 ];
 export default skills;

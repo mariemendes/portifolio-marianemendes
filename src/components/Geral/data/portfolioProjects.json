@@ -34,8 +34,8 @@
       "title": "BROFIWEAR",
       "description": "Fitness clothing brand",
       "mainTech": ["TypeScript"],
-      "tech": "React, TypeScript, CSS, GraphQL",
-      "plataform": "VTEX-IO",
+      "tech": ["React", "TypeScript", "CSS", "GraphQL"],
+      "plataform": ["VTEX"],
       "link": "https://www.brofitwear.com.br/"
     },
     {
@@ -44,8 +44,8 @@
       "title": "Loja Abelhuda",
       "description": "Kids clothing brand",
       "mainTech": ["JavaScript"],
-      "tech": "HTML, Tailwind, SCSS, GraphQL, JavaScript",
-      "plataform": "WAKE",
+      "tech": ["HTML","Tailwind", "SASS", "GraphQL", "JavaScript"],
+      "plataform": ["WAKE"],
       "link": "https://www.lojadaabelhuda.com.br/"
     }
   ]

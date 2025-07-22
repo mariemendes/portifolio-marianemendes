@@ -3,8 +3,9 @@ import styles from './Portifolio.module.css';
 import PortifolioItem from './PortifolioItem';
 import Modal from './Modal';
 import data from '../Geral/data/portfolioProjects.json';
-import skills from '../Geral/skills';  // Importa a lista de skills com ícones
+import skills from '../Geral/skills';  
 import Paragraph from '../Geral/Paragraph';
+import { EyeIcon } from '../../assets/Icons/Icons';
 
 const Stores = () => {
   const projects = data.stores;
@@ -47,7 +48,7 @@ const Stores = () => {
                 className={styles.portifolioItem}
                 src={project.urlImg}
                 alt={project.title}
-                style={{ width: '300px', height: '200px', objectFit: 'cover' }}
+                style={{ width: '100%', height: '200px', objectFit: 'cover', objectPosition: 'top'}}
               />
             </PortifolioItem>
 
@@ -57,7 +58,6 @@ const Stores = () => {
                   project.mainTech.map((tech) => {
                     const skill = getSkillData(tech);
                     if (!skill) return <Paragraph key={tech}>{tech}</Paragraph>;
-
                     const IconComponent = skill.icon;
                     return (
                       <div
@@ -77,10 +77,32 @@ const Stores = () => {
               </div>
               {project.link && (
                 <Paragraph>
-                  <a href={project.link}>Live</a>
+                  <a href={project.link} className={styles.techLinks}> <EyeIcon width={18} height={18} />
+                  Live</a>
                 </Paragraph>
               )}
-              {project.plataform && <Paragraph>{project.plataform}</Paragraph>}
+              <div className={styles.techIcons}>
+                {Array.isArray(project.plataform) ? (
+                  project.plataform.map((tech) => {
+                    const skill = getSkillData(tech);
+                    if (!skill) return <Paragraph key={tech}>{tech}</Paragraph>;
+                    const IconComponent = skill.icon;
+                    return (
+                      <div
+                        key={tech}
+                        className={styles.techItem}
+                        style={{ backgroundColor: skill.bg }}
+                        title={skill.label}
+                      >
+                        <IconComponent width={21} height={21}/>
+                        <Paragraph>{project.plataform}</Paragraph>
+                      </div>
+                    );
+                  })
+                ) : (
+                  <Paragraph>{project.plataform}</Paragraph>
+                )}
+              </div>
             </div>
           </div>
         ))}
