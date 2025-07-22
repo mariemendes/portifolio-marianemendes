@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "urlImg": "https://i.ibb.co/HYCPmtD/Screenshot-2023-08-16-at-5-36-58-PM.png",
+      "title": "Instagram for Dogs",
+      "description": "Instagram made for Dog Owners who wants to share their cute photos of their babies",
+      "frontend": "React.js, CSS",
+      "backend": "Node.js, Express",
+      "link": "http://52.60.58.160:3000/"
+    },
+    {
+      "id": 2,
+      "urlImg": "https://i.ibb.co/HYCPmtD/Screenshot-2023-08-16-at-5-36-58-PM.png",
+      "title": "Instagram for Dogs",
+      "description": "Instagram made for Dog Owners who wants to share their cute photos of their babies",
+      "frontend": "React.js, CSS",
+      "backend": "Node.js, Express",
+      "link": "http://52.60.58.160:3000/"
+    },
+    {
+      "id": 3,
+      "urlImg": "https://i.ibb.co/HYCPmtD/Screenshot-2023-08-16-at-5-36-58-PM.png",
+      "title": "Instagram for Dogs",
+      "description": "Instagram made for Dog Owners who wants to share their cute photos of their babies",
+      "tech": "React.js, CSS",
+      "link": "http://52.60.58.160:3000/"
+    }
+  ],
+  "stores": [
+    {
+      "id": 1,
+      "urlImg": "https://i.postimg.cc/rmDtQ87y/brofit-1.png",
+      "title": "BROFIWEAR",
+      "description": "Fitness clothing brand",
+      "mainTech": ["TypeScript"],
+      "tech": "React, TypeScript, CSS, GraphQL",
+      "plataform": "VTEX-IO",
+      "link": "https://www.brofitwear.com.br/"
+    },
+    {
+      "id": 2,
+      "urlImg": "https://i.postimg.cc/L8kk18Fr/abelhuda-1.png",
+      "title": "Loja Abelhuda",
+      "description": "Kids clothing brand",
+      "mainTech": ["JavaScript"],
+      "tech": "HTML, Tailwind, SCSS, GraphQL, JavaScript",
+      "plataform": "WAKE",
+      "link": "https://www.lojadaabelhuda.com.br/"
+    }
+  ]
+}

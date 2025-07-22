@@ -1,3 +1,34 @@
+.projectsWrapper {
+  gap: 3rem;
+  display: grid;
+}
+.galleryProjects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem; /* ou o espaçamento que quiser entre os itens */
+}
+
+.item {
+  border-radius: var(--border-radious-small);
+  border: 1px solid var(--border-color);
+  padding: 0.5rem;
+}
+.techItem {
+  max-width: max-content;
+  padding: 0 0.6rem;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  height: 35px;
+  border-radius: var(--border-radious-small);
+}
+
+.projectLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .modal {
   position: fixed;
   margin-left: 2rem;

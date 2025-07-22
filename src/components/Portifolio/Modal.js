@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Modal.module.css';
-// import ExpTitle from '../Geral/ExpTitle';
 import Paragraph from '../Geral/Paragraph';
 import Button from '../Geral/Button';
 

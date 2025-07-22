@@ -8,6 +8,7 @@ import Home from './components/Home/Home';
 import GitHubMessage from './components/GitHubMessage/GitHubMessage';
 import Experience from './components/Experience/Experience';
 import Contact from './components/Contact/Contact';
+import Portifolio from './components/Portifolio/Portifolio';
 
 function AppContent() {
   const location = useLocation();
@@ -43,6 +44,7 @@ function AppContent() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/experience" element={<Experience />} />
+            <Route path="/projects" element={<Portifolio />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
           <GitHubMessage />
