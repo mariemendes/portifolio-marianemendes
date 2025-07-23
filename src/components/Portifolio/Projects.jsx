@@ -22,7 +22,10 @@ const Projects = () => {
   return (
     <div className={`${styles.projectsWrapperItem}`}>
       <h1>Projects, Studies, and More</h1>
-      <Paragraph>Here you’ll find a selection of projects and studies I’ve worked on — from personal experiments to real-world applications.</Paragraph>
+      <Paragraph>
+        Here you’ll find a selection of projects and studies I’ve worked on —
+        from personal experiments to real-world applications.
+      </Paragraph>
       <div className={`${styles.galleryProjects}`}>
         {projects.map((project) => (
           <PortifolioItem
@@ -44,12 +47,24 @@ const Projects = () => {
                 <Paragraph>{project.mainTech}</Paragraph>
                 {project.url && (
                   <Paragraph>
-                    <a href={project.url}>Live</a>
+                    <a
+                      href={project.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Live
+                    </a>
                   </Paragraph>
                 )}
                 {project.github && (
                   <Paragraph>
-                    <a href={project.github}>Code</a>
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Code
+                    </a>
                   </Paragraph>
                 )}
               </div>

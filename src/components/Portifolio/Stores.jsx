@@ -3,7 +3,7 @@ import styles from './Portifolio.module.css';
 import PortifolioItem from './PortifolioItem';
 import Modal from './Modal';
 import data from '../Geral/data/portfolioProjects.json';
-import skills from '../Geral/skills';  
+import skills from '../Geral/skills';
 import Paragraph from '../Geral/Paragraph';
 import { EyeIcon } from '../../assets/Icons/Icons';
 
@@ -24,7 +24,7 @@ const Stores = () => {
   // Função que retorna o skill correspondente, por label (case insensitive)
   const getSkillData = (label) => {
     return skills.find(
-      (skill) => skill.label.toLowerCase() === label.toLowerCase()
+      (skill) => skill.label.toLowerCase() === label.toLowerCase(),
     );
   };
 
@@ -48,7 +48,12 @@ const Stores = () => {
                 className={styles.portifolioItem}
                 src={project.urlImg}
                 alt={project.title}
-                style={{ width: '100%', height: '200px', objectFit: 'cover', objectPosition: 'top'}}
+                style={{
+                  width: '100%',
+                  height: '200px',
+                  objectFit: 'cover',
+                  objectPosition: 'top',
+                }}
               />
             </PortifolioItem>
 
@@ -77,8 +82,16 @@ const Stores = () => {
               </div>
               {project.link && (
                 <Paragraph>
-                  <a href={project.link} className={styles.techLinks}> <EyeIcon width={18} height={18} />
-                  Live</a>
+                  <a
+                    href={project.link}
+                    className={styles.techLinks}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {' '}
+                    <EyeIcon width={18} height={18} />
+                    Live
+                  </a>
                 </Paragraph>
               )}
               <div className={styles.techIcons}>
@@ -94,7 +107,7 @@ const Stores = () => {
                         style={{ backgroundColor: skill.bg }}
                         title={skill.label}
                       >
-                        <IconComponent width={21} height={21}/>
+                        <IconComponent width={21} height={21} />
                         <Paragraph>{project.plataform}</Paragraph>
                       </div>
                     );
