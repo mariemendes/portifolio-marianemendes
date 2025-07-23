@@ -12,6 +12,11 @@
   border-radius: var(--border-radious-small);
   border: 1px solid var(--border-color);
   padding: 0.5rem;
+  min-height: 22rem;
+  height: 22rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .techItem {
   max-width: max-content;
@@ -33,4 +38,3 @@
   display: flex;
   gap: 3px;
 }
-

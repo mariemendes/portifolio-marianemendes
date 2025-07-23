@@ -1,0 +1,81 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "urlImg": "https://i.ibb.co/HYCPmtD/Screenshot-2023-08-16-at-5-36-58-PM.png",
+      "title": "Instagram for Dogs",
+      "description": "Instagram made for Dog Owners who wants to share their cute photos of their babies",
+      "tech": ["React", "CSS", "Node.js", "Express.js"],
+      "mainTech": ["React"],
+      "type": "Studies",
+      "link": "http://52.60.58.160:3000/",
+      "github": "https://github.com/mariemendes/final_project_dogs_Mariane_Mendes"      
+    },
+    {
+      "id": 2,
+      "urlImg": "https://i.postimg.cc/W3cc7Fjw/Screenshot-2025-07-23-at-1-22-33-PM.png",
+      "title": "Buy Together Component",
+      "description": "",
+      "tech": ["TypeScript", "CSS", "GraphQL", "Node.js", "VTEX"],
+      "mainTech": ["TypeScript"],
+      "type": "Feature",
+      "link": "https://www.brofitwear.com.br/short-fitness-breeze-brancotela-sh0622_20303/p",
+      "github": "https://github.com/mariemendes/buy-together-vtexio"
+    },
+    {
+      "id": 3,
+      "urlImg": "https://i.ibb.co/HYCPmtD/Screenshot-2023-08-16-at-5-36-58-PM.png",
+      "title": "UPVote",
+      "description": "Instagram made for Dog Owners who wants to share their cute photos of their babies",
+      "tech": ["TypeScript", "CSS", "GraphQL", "Node.js", "VTEX"],
+      "mainTech": ["TypeScript"],
+      "type": "Studies",
+      "link": "",
+      "github": "https://github.com/mariemendes/Upvote-project"
+    },
+    {
+      "id": 4,
+      "urlImg": "https://i.postimg.cc/ZqSPLVGs/Screen-Shot-2025-07-23-at-12-59-44-fullpage.png",
+      "title": "LP Dance",
+      "description": "Developed a high-performance Landing Page using VTEX IO blocks and optimized CSS.",
+      "tech": ["CSS", "VTEX"],
+      "mainTech": ["CSS"],
+      "type": "LP",
+      "link": "https://www.brofitwear.com.br/dance",
+      "github": ""
+    },
+    {
+      "id": 5,
+      "urlImg": "https://i.postimg.cc/65J0M6xp/Screen-Shot-2025-07-23-at-12-59-54-fullpage.png",
+      "title": "LP Revendedor",
+      "description": "Developed a high-performance Landing Page using VTEX IO blocks and optimized CSS.",
+      "tech": ["CSS", "VTEX"],
+      "mainTech": ["CSS"],
+      "type": "LP",
+      "link": "https://www.brofitwear.com.br/revendedor",
+      "github": ""
+    }
+  ],
+  "stores": [
+    {
+      "id": 1,
+      "urlImg": "https://i.postimg.cc/rmDtQ87y/brofit-1.png",
+      "title": "BROFIWEAR",
+      "description": "Fitness clothing brand",
+      "mainTech": ["TypeScript"],
+      "tech": ["React", "TypeScript", "CSS", "GraphQL"],
+      "plataform": ["VTEX"],
+      "link": "https://www.brofitwear.com.br/"
+    },
+    {
+      "id": 2,
+      "urlImg": "https://i.postimg.cc/L8kk18Fr/abelhuda-1.png",
+      "title": "Loja Abelhuda",
+      "description": "Kids clothing brand",
+      "mainTech": ["JavaScript"],
+      "tech": ["HTML","Tailwind", "SASS", "GraphQL", "JavaScript"],
+      "plataform": ["WAKE"],
+      "link": "https://www.lojadaabelhuda.com.br/"
+    }
+  ]
+}

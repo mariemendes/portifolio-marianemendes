@@ -46,17 +46,17 @@ const Modal = ({ project, onClose }) => {
                   <li
                     key={tech}
                     className={`${styles.techItem} techItem`}
-                    style={{ backgroundColor: skill.bg }}
+                    style={{ backgroundColor: skill.bg}}
                     title={skill.label}
                   >
                     <IconComponent height={21} />
-                    <Paragraph>{tech}</Paragraph>
+                    <Paragraph style={{ color: "black" }}>{tech}</Paragraph>
                   </li>
                 );
               })
             ) : (
               <li>
-                <Paragraph>{project.tech}</Paragraph>
+                <Paragraph style={{ color: "black" }}>{project.tech}</Paragraph>
               </li>
             )}
           </ul>

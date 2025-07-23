@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styles from './Portifolio.module.css';
 import PortifolioItem from './PortifolioItem';
 import Modal from './Modal';
-import data from '../Geral/data/portfolioProjects.json';
+import data from '../data/portfolioProjects.json';
 import skills from '../Geral/skills';
 import Paragraph from '../Geral/Paragraph';
 import { EyeIcon } from '../../assets/Icons/Icons';
