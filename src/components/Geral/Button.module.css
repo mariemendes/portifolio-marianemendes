@@ -5,7 +5,7 @@
   font-size: 14px;
   font-weight: 700;
   letter-spacing: .5px;
-  color: #fff;
+  color: var(--color-light);
   transition: all .1s ease-in-out;
   border: 0;
 }

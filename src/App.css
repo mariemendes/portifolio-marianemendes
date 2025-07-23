@@ -6,15 +6,13 @@
   --color-light: #fff;
   --color-orange: #f78166;
   --color-text: #333;
+  --color-lightgrey :#d1d9e0;
   --color-icon: #9198a1;
   --bg-color-dark: #0d1117;
   --bg-color-light: #fff;
   --light-green: #3bde00;
   --green: #238636;
   --dark-green:#1f432b;
-  
-  /* 🎨 bg */ 
-
 
   /* 🖋️ Fontes */
   --font-system: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
@@ -61,21 +59,19 @@
   box-sizing: border-box;
 }
 body {
-  /* padding-top: 4rem; */
   margin: 0px;
-  color: #333;
   font-family: var(--font-system);
+  background-color: var(--bg-main);
+  color: var(--txt-color);
 }
 
 body.light {
-  background-color: var(--bg-main);
   --bg-main: var(--bg-color-light);
-  color: var(--txt-color);
   --txt-color: var(--color-dark);
-  --border-nav: #d1d9e0;
+  --border-nav: var(--color-lightgrey);
   --icon-color: #333;
-  --border-color: #d1d9e0;
-  --bg-github: #d1d9e0;
+  --border-color: var(--color-lightgrey);
+  --bg-github: var(--color-lightgrey);
   --green-button: var(--dark-green);
   --bg-modal: rgba(0, 0, 0, 0.8);
   --txt-color-modal: var(--color-light);
@@ -86,8 +82,8 @@ body.dark {
   --bg-main: var(--bg-color-dark);
   color: var(--txt-color);
   --txt-color: var(--color-light);
-  --icon-color: #fff;
-  --border-nav: #fff;
+  --icon-color: var(--color-light)
+  --border-nav: var(--color-light);
   --border-color: #2f353d;
   --bg-github: #0f2015;
   --green-button: var(--light-green);
@@ -107,6 +103,7 @@ body.dark {
   margin-left: 20rem;
   margin-top: 3rem;
 }
+
 @media (min-width: 992px) {
   .containerWrapperRight {
     max-width: 50vw;
@@ -126,7 +123,7 @@ body.dark {
 }
 @media (min-width: 992px) {
   .containerWrapperRight {
-      margin: 2rem;
+    margin: 2rem;
   }
   .containerWrapperLeft {
     max-width: 23rem;
@@ -155,9 +152,6 @@ h3{
   margin: 0;
 }
 
-p{
-  font-size: var(--font-base);
-}
 a {
   text-decoration: none;
   color: var(--txt-color);
@@ -170,6 +164,7 @@ ul {
 button {
   cursor: pointer;
 }
+
 .btn-first {
   cursor: pointer;
   background-color: transparent;
@@ -195,7 +190,6 @@ button {
 .containerMain{
   display: grid;
   grid-template-columns: 2fr 4fr;
-  /* height: 100vh;  */
 }
 .leftContainerMain {
   justify-content: right;
