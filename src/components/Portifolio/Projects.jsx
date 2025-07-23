@@ -7,7 +7,6 @@ import Paragraph from '../Geral/Paragraph';
 import { EyeIcon, GitHubIcon } from '../../assets/Icons/Icons';
 import skills from '../Geral/skills';
 
-
 const Projects = () => {
   const projects = data.projects;
   const [modalOpen, setModalOpen] = useState(false);
