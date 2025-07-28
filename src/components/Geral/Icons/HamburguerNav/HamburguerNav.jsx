@@ -44,14 +44,17 @@ const HamburguerNav = ({ className }) => {
           <button className={styles.closeBtn} onClick={closeMenu}>
             <CloseIcon width={20} height={20} />
           </button>
+
           <div>
             <ProfileHambNav />
           </div>
+
           <ul className={`${className} ${styles.listNav}`}>
             {sections.map(({ label, to, aria }) => (
               <li key={to}>
                 <Link
                   to={to}
+                  onClick={closeMenu}
                   className={`${styles.link} ${
                     location.pathname === to ? styles.activeLink : ''
                   }`}
