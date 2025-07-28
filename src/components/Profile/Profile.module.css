@@ -2,6 +2,12 @@
   border-radius: 9999px;
   width: 292px;
 }
+.profilePictureHambMenu img{
+  width: 192px;
+}
+.profileNavPictureHambMenu {
+  min-height: auto !important;
+}
 .profileNav {
   text-align: left;
   min-height: 22rem;
@@ -15,6 +21,12 @@
 }
 .profileLinks{ 
   display: grid;
+}
+
+.profileNavPictureHambMenu .profileListLinks {
+  grid-auto-flow: column;
+    align-items: self-start;
+    justify-content: space-between;
 }
 .profileListLinks {
   margin: 0;

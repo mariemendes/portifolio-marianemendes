@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { HamburguerIcon , CloseIcon} from '../../../../assets/Icons/Icons';
+import { HamburguerIcon, CloseIcon } from '../../../../assets/Icons/Icons';
 import { Link, useLocation } from 'react-router-dom';
 import styles from './HamburguerNav.module.css';
 import sections from '../../../Geral/sections';
-
+import ProfileHambNav from '../../../Profile/ProfileHambNav';
 
 const HamburguerNav = ({ className }) => {
   const location = useLocation();
@@ -36,28 +36,32 @@ const HamburguerNav = ({ className }) => {
         <HamburguerIcon height={20} width={20} />
       </button>
 
-      <div
-        className={`${styles.overlay} ${isOpen ? styles.show : ''}`}
-      >
-        <nav ref={menuRef} className={`${styles.navMenuHamburguer} ${isOpen ? styles.open : ''}`}>
+      <div className={`${styles.overlay} ${isOpen ? styles.show : ''}`}>
+        <nav
+          ref={menuRef}
+          className={`${styles.navMenuHamburguer} ${isOpen ? styles.open : ''}`}
+        >
           <button className={styles.closeBtn} onClick={closeMenu}>
             <CloseIcon width={20} height={20} />
           </button>
-      <ul className={`${className} ${styles.listNav}`}>
-        {sections.map(({ label, to, aria }) => (
-          <li key={to}>
-            <Link
-              to={to}
-              className={`${styles.link} ${
-                location.pathname === to ? styles.activeLink : ''
-              }`}
-              aria-label={aria}
-            >
-              {label}
-            </Link>
-          </li>
-        ))}
-      </ul>
+          <div>
+            <ProfileHambNav />
+          </div>
+          <ul className={`${className} ${styles.listNav}`}>
+            {sections.map(({ label, to, aria }) => (
+              <li key={to}>
+                <Link
+                  to={to}
+                  className={`${styles.link} ${
+                    location.pathname === to ? styles.activeLink : ''
+                  }`}
+                  aria-label={aria}
+                >
+                  {label}
+                </Link>
+              </li>
+            ))}
+          </ul>
         </nav>
       </div>
     </div>

@@ -82,7 +82,7 @@ body.dark {
   --bg-main: var(--bg-color-dark);
   color: var(--txt-color);
   --txt-color: var(--color-light);
-  --icon-color: var(--color-light)
+  --icon-color: #fff;
   --border-nav: var(--color-light);
   --border-color: #2f353d;
   --bg-github: #0f2015;

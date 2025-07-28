@@ -45,7 +45,7 @@ const Stores = () => {
               <h3>{project.title}</h3>
               <Paragraph>{project.description}</Paragraph>
               <img
-                className={styles.portifolioItem}
+                className={styles.portifolioImg}
                 src={project.urlImg}
                 alt={project.title}
                 style={{

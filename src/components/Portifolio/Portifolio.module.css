@@ -7,13 +7,15 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem; /* ou o espaçamento que quiser entre os itens */
 }
+.portifolioImg {
 
+} 
 .item {
   border-radius: var(--border-radious-small);
   border: 1px solid var(--border-color);
   padding: 0.5rem;
-  min-height: 22rem;
-  height: 22rem;
+  min-height: 26rem;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

@@ -17,7 +17,7 @@ const Welcome = () => {
               <h1>Hello!</h1>
            </div>
             <div className={`${styles.personalInfos}`}>
-              <Paragraph>....</Paragraph>
+              <Paragraph>My name is Mariane, and I'm a hardworking Brazilian doing my best here in Canada.</Paragraph>
            </div>
             <div className={`${styles.buttonContact}`}>
               <Link to="/contact" rel="noopener noreferrer">
