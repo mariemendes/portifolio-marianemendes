@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portifolio-marianemendes/static/css/main.636671ab.css",
-    "main.js": "/portifolio-marianemendes/static/js/main.1c5fe95f.js",
+    "main.js": "/portifolio-marianemendes/static/js/main.e2de358c.js",
     "static/media/IMG_MarianeMendes.jpg": "/portifolio-marianemendes/static/media/IMG_MarianeMendes.b8449888b5096da6e525.jpg",
     "index.html": "/portifolio-marianemendes/index.html",
     "main.636671ab.css.map": "/portifolio-marianemendes/static/css/main.636671ab.css.map",
-    "main.1c5fe95f.js.map": "/portifolio-marianemendes/static/js/main.1c5fe95f.js.map"
+    "main.e2de358c.js.map": "/portifolio-marianemendes/static/js/main.e2de358c.js.map"
   },
   "entrypoints": [
     "static/css/main.636671ab.css",
-    "static/js/main.1c5fe95f.js"
+    "static/js/main.e2de358c.js"
   ]
 }

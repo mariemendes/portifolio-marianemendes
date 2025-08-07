@@ -65,6 +65,17 @@
       "type": "LP",
       "link": "https://mariemendes.github.io/test-catus/",
       "github": "https://github.com/mariemendes/test-catus"
+    },
+    {
+      "id": 7,
+      "urlImg": "https://i.postimg.cc/dV6Ktq9v/Screenshot-2025-07-28-at-4-50-31-PM.png",
+      "title": "Maeztra - Store",
+      "description": "Home Page to Maeztra Store.",
+      "tech": ["CSS", "React"],
+      "mainTech": ["React"],
+      "type": "LP",
+      "link": "https://github.com/mariemendes/test-maeztra",
+      "github": "https://mariemendes.github.io/test-maeztra/"
     }
   ],
   "stores": [
