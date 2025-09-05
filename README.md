@@ -14,6 +14,18 @@ npm install
 npm start
 ```
 
+## Build
+
+```javascript
+npm run build
+```
+
+## Deploy
+
+```javascript
+npm run deploy
+```
+
 ## Using this repository
 
 Everyone is welcome to use this repository! However, please note that it contains my personal information, so be sure to replace it with your own.
