@@ -67,6 +67,17 @@
       "github": "https://github.com/mariemendes/test-catus"
     },
     {
+      "id": 7,
+      "urlImg": "https://i.postimg.cc/dV6Ktq9v/Screenshot-2025-07-28-at-4-50-31-PM.png",
+      "title": "Maeztra - Store",
+      "description": "Home Page to Maeztra Store.",
+      "tech": ["CSS", "React"],
+      "mainTech": ["React"],
+      "type": "LP",
+      "link": "https://github.com/mariemendes/test-maeztra",
+      "github": "https://mariemendes.github.io/test-maeztra/"
+    },
+    {
       "id": 8,
       "urlImg": "https://i.postimg.cc/MZrKqSk5/Screenshot-2025-09-05-at-2-30-58-PM.png",
       "title": "API - Harry Potter",
