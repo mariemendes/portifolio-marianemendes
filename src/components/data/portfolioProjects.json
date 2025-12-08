@@ -96,7 +96,8 @@
       "tech": ["React", "TypeScript"],
       "mainTech": ["React"],
       "type": "Studies",
-      "link": "https://github.com/mariemendes/my-login-app"
+      "link": "",
+      "github": "https://github.com/mariemendes/my-login-app"
     }
   ],
   "stores": [
