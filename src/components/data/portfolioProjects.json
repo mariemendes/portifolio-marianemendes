@@ -8,7 +8,7 @@
       "tech": ["React", "CSS", "Node.js", "Express.js"],
       "mainTech": ["React"],
       "type": "Studies",
-      "link": "http://52.60.58.160:3000/",
+      "link": "",
       "github": "https://github.com/mariemendes/final_project_dogs_Mariane_Mendes"      
     },
     {
@@ -87,6 +87,16 @@
       "type": "Studies",
       "link": "https://mariemendes.github.io/Harry-Potter-API/",
       "github": "https://github.com/mariemendes/Harry-Potter-API"
+    },
+    {
+      "id": 9,
+      "urlImg": "https://i.postimg.cc/QCVwXzNQ/Screenshot-2025-12-08-at-3-12-49-PM.png",
+      "title": "API - Login",
+      "description": "Studing API, TypeScript and React.",
+      "tech": ["React", "TypeScript"],
+      "mainTech": ["React"],
+      "type": "Studies",
+      "link": "https://github.com/mariemendes/my-login-app"
     }
   ],
   "stores": [
